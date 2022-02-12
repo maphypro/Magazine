@@ -1,0 +1,16 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 18.75px;
+        height: 18.75px;
+        margin-right: 9px;
+    }
+
+    p {
+        color: #454F5B;
+        font-size: 18px;
+    }
+}

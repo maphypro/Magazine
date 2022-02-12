@@ -1,0 +1,10 @@
+.item {
+    margin-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:last-child {
+    margin-right: 0;
+}

@@ -1,8 +1,16 @@
+@font-face {
+  font-family: SF_regular;
+  src: url("assets/fonts/SF Pro Text/SF-Pro-Text-Regular.woff2");
+}
+
+@font-face {
+  font-family: SF_300;
+  src: url("assets/fonts/SF Pro Text/SF-Pro-Text-Light.woff2");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: SF_regular, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
