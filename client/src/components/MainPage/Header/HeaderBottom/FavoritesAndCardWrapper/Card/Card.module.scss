@@ -1,4 +1,25 @@
-.card_icon {
-    width: 32px;
-    height: 32px;
+.card {
+    display: flex;
+
+
+    .card_icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .amount_circle {
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        line-height: 19px;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #fff;
+        background: #4295E4;
+        color: #fff;
+        border-radius: 50%;
+        position: relative;
+        top: -3px;
+        left: -18px;
+    }
 }
