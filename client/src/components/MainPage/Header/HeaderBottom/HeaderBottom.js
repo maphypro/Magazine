@@ -2,6 +2,7 @@ import s from './HeaderBottom.module.scss'
 import Logo from "./Logo/Logo";
 import Menu from "./Menu/Menu";
 import Contacts from "./Contacts/Contacts";
+import FavoritesAndCardWrapper from "./FavoritesAndCardWrapper/FavoritesAndCardWrapper";
 
 const HeaderBottom = () => {
     return (
@@ -13,6 +14,7 @@ const HeaderBottom = () => {
                 </div>
                 <div className={s.right_wrapper}>
                     <Contacts/>
+                    <FavoritesAndCardWrapper/>
                 </div>
             </div>
         </div>
