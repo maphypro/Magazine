@@ -1,13 +1,14 @@
 import s from './DropdownMenu.module.scss';
+import DropdownMenuInside from "./DropdownMenuInside/DropdownMenuInside";
 import {useState} from "react";
 
 const DropdownMenu = (props) => {
 
-    const [isClicked, useIsClicked] = useState(false);
+    const [isClicked, useIsClicked] = useState(true);
 
     return (
         <a className={s.menu}>
-            {isClicked? <div>a</div> : null}
+            {isClicked? <DropdownMenuInside/> : null}
         </a>
     )
 }
