@@ -4,7 +4,7 @@ import {useState} from "react";
 
 const DropdownMenu = (props) => {
 
-    const [isClicked, useIsClicked] = useState(true);
+    const [isClicked, useIsClicked] = useState(false);
 
     return (
         <a className={s.menu}>
