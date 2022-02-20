@@ -1,0 +1,20 @@
+.swiper-pagination {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    position: static;
+
+    .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        background: #74b7ff;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 8px;
+        height: 8px;
+        background: #4295E4;
+        border: solid 8px #fafafa;
+        outline: solid 1px #ADD7FF;;
+    }
+}
