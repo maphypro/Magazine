@@ -1,20 +1,30 @@
 .dropdown_wrapper {
     padding: 32px;
-    width: 790px;
-    border: 1px solid #000;
+    min-width: fit-content;
+    position: relative;
+    top: 22px;
+    right: 85px;
+    box-shadow: 0px 4px 18px -2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 10;
+    background: white;
 
     .dropdown {
         display: flex;
         justify-content: space-between;
 
-
         .left_column {
+            margin-right: 120px;
+            display: flex;
+            flex-direction: column;
 
             .menu {
+                width: 343px;
                 display: flex;
                 flex-direction: column;
                 font-size: 16px;
                 color: #454F5B;
+                flex-shrink: 1;
 
                 .menu_item {
                     margin-bottom: 16px;
@@ -26,6 +36,7 @@
                     .menu_item_text:hover {
                         border-bottom: 1px solid #4295E4;
                         color: #161C24;
+                        font-family: SF_regular, sans-serif;
                     }
                 }
             }

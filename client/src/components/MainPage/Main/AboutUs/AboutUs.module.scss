@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    background: #F2F8FF;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+
+    .about_us {
+        display: flex;
+        align-items: center;
+    }
+}

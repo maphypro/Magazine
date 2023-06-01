@@ -8,6 +8,11 @@
   src: url("assets/fonts/SF Pro Text/SF-Pro-Text-Light.woff2");
 }
 
+@font-face {
+  font-family: SF_600;
+  src: url("assets/fonts/SF Pro Text/SF-Pro-Text-Semibold.woff2");
+}
+
 body {
   margin: 0;
   font-family: SF_regular, sans-serif;
